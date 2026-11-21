@@ -1,0 +1,18 @@
+{
+  "name": "pi-google-thought-signature-fallback",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Pi extension that injects Google's skip_thought_signature_validator sentinel on unsigned functionCall turns when switching providers mid-session.",
+  "keywords": ["pi-package"],
+  "pi": {
+    "extensions": ["./index.ts"],
+    "changelogPath": ""
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "scripts": {
+    "test": "node --test test.mjs"
+  }
+}
